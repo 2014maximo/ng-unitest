@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'unitest';
+  positivo = true;
+
+  sumar(a:number,b:number):number{
+    return a + b;
+  }
 }
